@@ -12,7 +12,7 @@ const Header = () => {
           <button className='main-btn'>Search Talent</button>
         </Link>
       </div>
-      <div className=''>
+      <div className='main-img-container'>
         <img className='main-img' src={mainImg} alt='person-coding' />
       </div>
     </header>

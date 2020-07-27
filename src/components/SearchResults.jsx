@@ -20,6 +20,7 @@ const SearchResults = ({ userData }) => {
     <section className='search-results-outer-container'>
       <img className='bg-waves-2' src={bgImg2} alt='' />
       <div className='search-results-container'>
+        <h1 className='search-results-title'>User Details</h1>
         <div className='search-results-text'>
           <div>
             <p>name</p>

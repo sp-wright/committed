@@ -3,13 +3,14 @@ import axios from 'axios';
 import { Link } from 'react-scroll';
 import bgWaves from '../images/bg-waves.svg';
 
-const Search = ({ userData }) => {
+const Search = ({ userData, handleGotData }) => {
   const [searchText, setSearchText] = useState('');
   const [searching, setSearching] = useState(false);
   const [loading, setLoading] = useState(true);
   const [emptyResults, setEmptyResults] = useState(false);
 
   const searchSubmit = async (e) => {
+    handleGotData(false);
     setSearching(true);
     setLoading(true);
     setEmptyResults(false);

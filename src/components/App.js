@@ -7,6 +7,10 @@ function App() {
   const [userData, setUserData] = useState([]);
   const [gotData, setGotData] = useState(false);
 
+  const handleGotData = (i) => {
+    setGotData(i);
+  };
+
   return (
     <div>
       <Header />
@@ -15,6 +19,7 @@ function App() {
           setUserData(e);
           setGotData(true);
         }}
+        handleGotData={(i) => handleGotData(i)}
       />
       {gotData && <SearchResults userData={userData} />}
     </div>
