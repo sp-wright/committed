@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/committed/static/css/main.87a60428.chunk.css",
+    "main.css": "/committed/static/css/main.f86bddb8.chunk.css",
     "main.js": "/committed/static/js/main.7c5eebbe.chunk.js",
     "main.js.map": "/committed/static/js/main.7c5eebbe.chunk.js.map",
     "runtime-main.js": "/committed/static/js/runtime-main.731544a4.js",
@@ -8,9 +8,9 @@
     "static/js/2.7bf54b71.chunk.js": "/committed/static/js/2.7bf54b71.chunk.js",
     "static/js/2.7bf54b71.chunk.js.map": "/committed/static/js/2.7bf54b71.chunk.js.map",
     "index.html": "/committed/index.html",
-    "precache-manifest.07684c705916c9d3f0769142c780787f.js": "/committed/precache-manifest.07684c705916c9d3f0769142c780787f.js",
+    "precache-manifest.0735f39f48b2cd38cf15c37b6f3df11c.js": "/committed/precache-manifest.0735f39f48b2cd38cf15c37b6f3df11c.js",
     "service-worker.js": "/committed/service-worker.js",
-    "static/css/main.87a60428.chunk.css.map": "/committed/static/css/main.87a60428.chunk.css.map",
+    "static/css/main.f86bddb8.chunk.css.map": "/committed/static/css/main.f86bddb8.chunk.css.map",
     "static/js/2.7bf54b71.chunk.js.LICENSE.txt": "/committed/static/js/2.7bf54b71.chunk.js.LICENSE.txt",
     "static/media/index.css": "/committed/static/media/bg-img.c3693ee9.jpg",
     "static/media/bg-waves.svg": "/committed/static/media/bg-waves.c1d24a1c.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.731544a4.js",
     "static/js/2.7bf54b71.chunk.js",
-    "static/css/main.87a60428.chunk.css",
+    "static/css/main.f86bddb8.chunk.css",
     "static/js/main.7c5eebbe.chunk.js"
   ]
 }
