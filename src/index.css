@@ -270,6 +270,7 @@ button[type='submit']:focus {
   background-color: var(--dark-grey-color);
   margin: 1rem;
   padding: 1rem;
+  filter: drop-shadow(1px 2px 2px black);
 }
 
 /********************* RepoItem *********************/
@@ -398,7 +399,7 @@ button[type='submit']:focus {
 
 @media (max-width: 950px) {
   * {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   /******* Header ********/
@@ -407,6 +408,10 @@ button[type='submit']:focus {
     grid-template-columns: 1fr;
     text-align: center;
     position: relative;
+  }
+
+  .main-title {
+    font-size: 4rem;
   }
 
   .title-container {
@@ -454,7 +459,15 @@ button[type='submit']:focus {
   }
 
   button[type='submit'] {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    border: 3px solid var(--dark-green-color);
+  }
+
+  button[type='submit']:hover {
+    border: 3px solid var(--dark-green-color);
+  }
+  button[type='submit']:focus {
+    border: 3px solid var(--off-white-color);
   }
 
   .spinner-container {
